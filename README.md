@@ -1,5 +1,6 @@
 # ChecKnowAnglish
-![ChecKnowAnglish](https://github.com/user-attachments/assets/71bcca49-5c86-42eb-aa9c-0f47b44baf65)
+![ChecKnowAnglish](https://github.com/user-attachments/assets/e1f1e9ac-3877-47ff-8a21-f370470cb5c0)
+
 I present to your attention an assistant for memorizing words in English — CheKnowAnglish (although the program can be used not only for memorizing English words, I will tell you about it below).
 
 This program is a console program (for now), but that doesn't make it any less functional. It provides the following features:
