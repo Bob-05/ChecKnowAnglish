@@ -1,0 +1,100 @@
+#pragma once
+#define NOMINMAX
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <Windows.h>
+#include <map>
+#include <cstdlib>
+#include <cctype>
+
+using std::cin;
+using std::cout;
+using std::endl;
+using std::map;
+using std::string;
+
+map <string, string> words = {
+        {"я", "I"},
+        {"ты", "you"},
+        {"он", "he"},
+        {"она", "she"},
+        {"оно", "it"},
+        {"мы", "we"},
+        {"они", "they"},
+        {"это", "this"},
+        {"то", "that"},
+        {"здесь", "here"},
+        {"там", "there"},
+        {"кто", "who"},
+        {"что", "what"},
+        {"где", "where"},
+        {"когда", "when"},
+        {"как", "how"},
+        {"не", "not"},
+        {"все", "all"},
+        {"много", "many"},
+        {"несколько", "some"},
+        {"немного", "few"},
+        {"другой", "other"},
+        {"один", "one"},
+        {"два", "two"},
+        {"три", "three"},
+        {"четыре", "four"},
+        {"пять", "five"},
+        {"большой", "big"},
+        {"длинный", "long"},
+        {"широкий", "wide"},
+        {"толстый", "thick"},
+        {"тяжелый", "heavy"},
+        {"нога", "foot"},
+        {"нога", "leg"},
+        {"колено", "knee"},
+        {"рука", "hand"},
+        {"крыло", "wing"},
+        {"живот", "belly"},
+        {"кишки", "guts"},
+        {"шея", "neck"},
+        {"спина", "back"},
+        {"грудь", "breast"},
+        {"сердце", "heart"},
+        {"печень", "liver"},
+        {"пить", "drink"},
+        {"есть", "eat"},
+        {"кусать", "bite"},
+        {"сосать", "suck"},
+        {"плевать", "spit"},
+        {"рвать", "vomit"},
+        {"дуть", "blow"},
+        {"дышать", "breathe"},
+        {"смеяться", "laugh"},
+        {"видеть", "see"},
+        {"слышать", "hear"},
+        {"знать", "know"},
+        {"думать", "think"},
+        {"нюхать", "smell"},
+        {"бояться", "fear"},
+        {"спать", "sleep"},
+        {"жить", "live"},
+        {"умирать", "die"},
+        {"убивать", "kill"},
+        {"бороться", "fight"},
+        {"круглый", "round"},
+        {"острый", "sharp"},
+        {"тупой", "dull"},
+        {"гладкий", "smooth"},
+        {"мокрый", "wet"},
+        {"сухой", "dry"},
+        {"правильный", "correct"},
+        {"близкий", "near"},
+        {"далекий", "far"},
+        {"правый", "right"},
+        {"левый", "left"},
+        {"в", "at"},
+        {"в", "in"},
+        {"с", "with"},
+        {"и", "and"},
+        {"если", "if"},
+        {"потому-что", "because"},
+        {"имя", "name"}
+};
