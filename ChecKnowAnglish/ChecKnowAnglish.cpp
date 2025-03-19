@@ -152,9 +152,9 @@ void interface_programm()
 
 				cout << "\x1b[0;32mВведите английское слово (\x1b[0;31mвыйти - \"выход\"\x1b[0;32m): \x1b[0;33m";
 				string word_en;
-				cin >> word_ru;
+				cin >> word_en;
 				uppercase_string(word_en);
-				cout << "\x1b[0;32mПредполагаемый ввод: \x1b[0;31m\"" << word_ru << "\"\n\x1b[0;32m";
+				cout << "\x1b[0;32mПредполагаемый ввод: \x1b[0;31m\"" << word_en << "\"\n\x1b[0;32m";
 				if (word_en == "выход")
 				{
 					cout << "\x1b[0;31mВыход - успешно!!!\x1b[0;32m" << endl;
